@@ -1,4 +1,17 @@
 proxies:
+- name: DwiFortunaNusa_LiveNusa_1
+  type: trojan
+  server: beacon.liveon.id
+  port: 443
+  password: 7725a725-3b2f-4c70-a650-488d22ea259b
+  udp: true
+  sni: vpna4mvbhv.scpotato.me
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: vpna4mvbhv.scpotato.me
 - name: DwiFortuna_LiveDO_1
   type: trojan
   server: circles.asia
